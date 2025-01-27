@@ -4,5 +4,5 @@ void main()
     int x;
     char str[5];
     scanf("%s", str);
-    printf("%f", x);
+    printf("ASCII Value: %f", x);
 }
