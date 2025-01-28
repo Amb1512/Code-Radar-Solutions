@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    float x;
-    float y;
+    float x, y, pro;
     scanf("%f%f",&x,&y);
     pro=x*y;
     printf("Product: %f",pro);
