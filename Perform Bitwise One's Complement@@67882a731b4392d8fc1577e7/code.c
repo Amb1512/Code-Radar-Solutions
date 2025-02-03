@@ -2,7 +2,6 @@
 void main()
 {
     int m;
-    int n;
-    scanf("%d%d",&m,&n);
-    printf("%d",m~n);
+    scanf("%d%d",&m);
+    printf("%d",~m);
 }
