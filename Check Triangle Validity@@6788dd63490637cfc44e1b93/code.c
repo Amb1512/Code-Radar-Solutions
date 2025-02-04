@@ -6,7 +6,7 @@ void main()
     int o;
     scanf("%d%d%d",&m,&n,&o);
     if (m+n>o && m+o>n && n+o>m)
-        printf("Valid")
+        printf("Valid");
     else
-        printf("Invalid")
+        printf("Invalid");
 }
