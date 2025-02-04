@@ -3,9 +3,9 @@ void main()
 {
     int m;
     if (m==0)
-        printf("Zero");
+        {printf("Zero")};
     else if (m<0)
-        printf("Negative");
+        {printf("Negative")};
     else
-        printf("Positive");
+        {printf("Positive")};
 }
