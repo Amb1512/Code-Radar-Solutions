@@ -7,9 +7,8 @@ void main()
         printf("Vowel");
     else if (m>=0 && m<=9)
         printf("Digit");
-    else if (m==@)
+    else if (m=='@')
         printf("Special Character");
     else
         printf("Consonant");
-
 }
