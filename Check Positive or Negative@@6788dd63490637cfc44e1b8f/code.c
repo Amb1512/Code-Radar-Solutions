@@ -2,10 +2,10 @@
 void main()
 {
     int m;
-    if (m>0)
-        printf("Positive");
+    if (m==0)
+        printf("Zero");
     else if (m<0)
         printf("Negative");
     else
-        printf("Zero");
+        printf("Positive");
 }
