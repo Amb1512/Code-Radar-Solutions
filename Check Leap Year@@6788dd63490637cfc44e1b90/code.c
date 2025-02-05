@@ -3,8 +3,8 @@ void main()
 {
     int m;
     scanf("%d",&m);
-    if ((m%100==0) && (m%400!=0))
+    if ((m%4==0) && (m%400==0))
         printf("Not a Leap Year");
-    else if ((m%4==0) && ((m%100==0)))
+    else 
         printf("Leap Year");
 }
