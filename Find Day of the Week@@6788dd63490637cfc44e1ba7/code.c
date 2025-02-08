@@ -17,6 +17,13 @@ void main()
         printf("Saturday");
     else if (a==7)
         printf("Sunday");
-    else 
+    else
         printf("Invalid");
+
+
+
+
+
+
+
 }
