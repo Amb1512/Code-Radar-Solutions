@@ -7,5 +7,5 @@ void main()
     if (a<=0)
         printf("Freezing");
     else 
-        printf("Abov Freezing");
+        printf("Above Freezing");
 }
