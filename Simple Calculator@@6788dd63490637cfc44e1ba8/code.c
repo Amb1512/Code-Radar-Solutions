@@ -19,13 +19,13 @@ int main()
             printf("%d",res);
             break;
         case '/':
-        if (n1 != 0){
-            res=n1/n2;
-            printf("%d",res);
-        }else{
-            printf("%d",res);
-            break;
-        }
+            if (n2 != 0){
+                res=n1/n2;
+                printf("%d",res);
+            }else{
+                printf("error");
+                break;
+            }
         default:
             printf("error");
     }
