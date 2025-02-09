@@ -2,24 +2,24 @@
 int main()
 {
     int n1,n2;
-    char o;
+    char a;
     int res;
-    scanf("%d %d %c", &n1, &n2, &o);
-    switch(o){
+    scanf ("%d%d%c",&n1,&n2,&a);
+    switch(a){
         case'+':
             res=n1+n2;
             printf("%d",res);
             break;
-        case '-':
+        case'-':
             res=n1-n2;
             printf("%d",res);
             break;
-        case '*':
+        case'*':
             res=n1*n2;
-            printf("%d",res);
+            printf("%d",n1*n2);
             break;
-        case '/':
-            if (n2 != 0){
+        case'/':
+            if (n2!=0){
                 res=n1/n2;
                 printf("%d",res);
             }else{
@@ -29,5 +29,4 @@ int main()
         default:
             printf("error");
     }
-    return 0;
 }
