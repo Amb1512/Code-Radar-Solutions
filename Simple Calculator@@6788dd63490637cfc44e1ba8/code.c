@@ -6,7 +6,7 @@ int main()
     int res;
     scanf("%d %d %c", &n1, &n2, &o);
     switch(o){
-        case '+':
+        case'+':
             res=n1+n2;
             printf("%d",res);
             break;
@@ -24,8 +24,8 @@ int main()
                 printf("%d",res);
             }else{
                 printf("error");
-                break;
             }
+            break;
         default:
             printf("error");
     }
