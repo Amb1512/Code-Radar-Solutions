@@ -1,33 +1,31 @@
 #include <stdio.h>
-
-int main() {
-    int n1, n2;
-    char o;
-    int result;
-
-    scanf("%d %d %c", &n1, &n2, &o);
-    
-    switch(o) {
-        case '+':
-            result = n1 + n2;
-            printf("%d", result);
+int main()
+{
+    int n1,n2;
+    char a;
+    int res;
+    scanf("%d%d%c",&n1,&n2,&a);
+    switch(a){
+        case'+':
+        res=n1+n2;
+        printf("%d",res);
             break;
-        case '-':
-            result = n1 - n2;
-            printf("%d", result);
+        case'-':
+        res=n1-n2;
+        printf("%d",res);
             break;
-        case '*':
-            result = n1 * n2;
-            printf("%d", result);
+        case'*':
+        res=n1*n2;
+        printf("%d",res);
             break;
-        case '/':
-            if (n2 != 0) {
-                result = n1 / n2;
-                printf("%d", result);
-            } else {
-                printf("error");
-            }
-            break;
+        case'/':
+        if (n1 != 0){
+            res=n1/n2;
+            printf("%d",res);
+        }else{
+            printf("%d",res);
+                break;
+        }
         default:
             printf("error");
     }
