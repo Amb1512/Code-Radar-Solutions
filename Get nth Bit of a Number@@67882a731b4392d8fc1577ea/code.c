@@ -4,5 +4,5 @@ int main()
     int n, m;
     scanf("%d %d", &n, &m);
     int p = (n >> m) & 1;
-    printf("%d" p);
+    printf("%d", p);
 }
