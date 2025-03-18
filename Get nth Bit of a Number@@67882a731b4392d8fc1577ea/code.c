@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int n, m;
-    scanf("%d %d", &n, &m);
-    int p = n>>m;
-    printf("%d", p);
+    int num, pos;
+    scanf("%d %d", &num, &pos);
+    int n = (num >> pos)&1;
+    printf("%d", n);
 }
