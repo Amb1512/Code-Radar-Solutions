@@ -3,8 +3,6 @@ int main()
 {
     int num, pos;
     scanf("%d %d", &num, &pos);
-    if (num << pos)
-    {
-        printf("%d", num);
-    }
+    int nth = (num >> pos) & 1;
+    printf("%d", nth);
 }
