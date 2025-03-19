@@ -1,5 +1,5 @@
 #include <stdio.h>
-int mai()
+int main()
 {
     int n;
     scanf("%d", &n);
@@ -9,6 +9,6 @@ int mai()
         {printf(" ");}
         for(int k = 1; k <= i; k++)
         {printf("*");}
+        printf("\n");
     }
-    printf("\n");
 }
