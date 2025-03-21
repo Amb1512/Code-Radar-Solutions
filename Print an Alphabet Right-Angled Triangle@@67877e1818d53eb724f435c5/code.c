@@ -7,7 +7,8 @@ int main()
     {
         for (int j = 1; j <= i; j++)
         {
-            printf("%c"(67+j));
+            char c = 67+j;
+            printf("%c", c);
         }
     }
 }
