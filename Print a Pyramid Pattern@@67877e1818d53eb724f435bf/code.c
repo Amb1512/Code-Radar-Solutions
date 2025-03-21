@@ -1,4 +1,4 @@
-#include <atdio.h>
+#include <stdio.h>
 int main()
 {
     int n;
