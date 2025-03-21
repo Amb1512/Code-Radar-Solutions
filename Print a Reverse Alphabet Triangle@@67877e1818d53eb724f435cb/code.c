@@ -5,11 +5,12 @@ int main()
     scanf("%d", &n);
     for (int i = 1; i <= n; i++)
     {
+        char c = 'A';
+        c++;
         for (int j = 1; j <= n-i; j++)
         {
-            char c = 63 + j;
             printf("%c ", c);
-            c++;
+            
         }
         printf("\n");
     }
