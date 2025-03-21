@@ -7,8 +7,8 @@ int main()
     {
         for (int j = 1; j <= n-i; j++)
         {
-            char c = 64 + j;
-            printf("&c ", c);
+            char c = 63 + j;
+            printf("%c ", c);
             c++;
         }
         printf("\n");
