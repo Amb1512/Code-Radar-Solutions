@@ -8,4 +8,5 @@ int main()
         for (int j = i; j <= n+i; j++)
         {printf("%d ", j);}
     }
+    printf("\n");
 }
