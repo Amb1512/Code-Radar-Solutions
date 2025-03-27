@@ -9,6 +9,8 @@ int main()
         {printf(" ");}
         for (int k = 1; k <= i; k++)
         {printf("%d",k);}
+        for (int k = i-1; k>=1; k--)
+        {printf("%d",k);}
         printf("\n");
     }
 
