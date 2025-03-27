@@ -9,8 +9,6 @@ int main()
         {printf(" ");}
         for (int k = 1; k <= (2 * i - 1); k++)
         {printf("*");}
-        for (int m = 1; m <= (n-i); m++)
-        {printf("*");}
         printf("\n");
     }
 }
