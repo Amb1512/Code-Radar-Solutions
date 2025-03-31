@@ -6,6 +6,5 @@ int main(){
     for (int i = 1; i < n; i++)
         {scanf("%d", &arr[i]);}
     for (int i = n - 1; i >= 0; i--)
-        {printf("%d",i);}
-        printf("\n");
+        {printf("%d\n",arr[i]);}
 }
